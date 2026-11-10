@@ -1,7 +1,8 @@
 # food-truck-site
 
-ACP log
+## ACP log
 | # | What I changed | Commit message | Branch |
+|---|----------------|----------------|--------|
 | 1 | Made the repo on GitHub with a README | Initial commit | main |
 | 2 | Created page with Bootstrap | Add Bootstrap and header | main |
 | 3 | Updated Bootstrap Page | Add menu cards | main |
