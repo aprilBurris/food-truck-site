@@ -7,3 +7,4 @@
 | 2 | Created page with Bootstrap | Add Bootstrap and header | main |
 | 3 | Updated Bootstrap Page | Add menu cards | main |
 | 4 | Updated Bootstrap Page | Updated header bg color | main |
+| 5 | Updated Bootstrap Page | Add footer | main |
