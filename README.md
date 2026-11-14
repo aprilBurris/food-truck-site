@@ -9,3 +9,4 @@
 | 4 | Updated Bootstrap Page | Updated header bg color | main |
 | 5 | Updated Bootstrap Page | Add footer | main |
 | 6 | Update Bootstrap Page | Add responsive cards and visit section | main |
+| 7 | Update Bootstrap page | Responsive spacing and heading size | main |

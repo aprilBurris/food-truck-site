@@ -1,0 +1,19 @@
+/* responsive spacing and heading style start */
+.hero-title {
+    font-size: 2.5rem;
+}
+
+.lead {
+    font-size: 1.125rem; /* phone size */
+}
+
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 4.5rem;
+    }
+
+    .lead {
+        font-size: 1.5rem; /* big size screen */
+    }
+}
+/* responsive spacing and heading style end */
