@@ -9,20 +9,26 @@
 </head>
 
 <body>
+    <!-- Hero Banner: main header, tagline and call-to action button -->
 
   <header class="bg-primary text-center py-4 py-md-5">
     <h1 class="hero-title fw-bold">E's Food For The Soul</h1>
       <p class="lead">Where the food satisfies your soul!</p>
+      <!-- Smooth-scroll anchor link for main section -->
         <a href="#menu" class="btn btn-dark btn-lg">See the menu</a>
   </header>
 
+  <!-- Main Content Container -->
   <main class="container py-4 py-md-5 px-3 px-lg-5">
+
+    <!-- Menu Section -->
     <section id="menu">
         <h2 class="mb-4">Menu</h2>
 
-        <!-- responsive cards -->
+        <!-- Responsive Bootstrap cards with 1 mobile (phone), 2 medium (tablet), 3 large (desktop) -->
         <div class="row g-3 g-md-4">
 
+            <!-- Menu item 1 -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
                     <div class="card-body">
@@ -33,6 +39,7 @@
                 </div>
             </div>
 
+            <!-- Menu item 2 -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
                     <div class="card-body">
@@ -43,6 +50,7 @@
                 </div>
             </div>
 
+            <!-- Menu item 3 -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
                     <div class="card-body">
@@ -52,6 +60,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Menu item 4 -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card h-100">
                     <div class="card-body">
@@ -61,29 +71,38 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </div> <!-- End .row -->
+    </section> <!-- End #menu -->
 
-    <!-- Visit us section -->
+    <!-- Visit us section for location and operating hours -->
     <section id="visit" class="mt-5">
         <h2 class="mb-4">Visit Us</h2>
 
-            <!-- where and when boxes held by div -->
-        <div class="d-flex flex-colum flex-md-row gap-3">
+            <!-- Flex container with stack boxes on phone (flex-column) and align them side by side on medium screen (flex-md-row) -->
+        <div class="d-flex flex-column flex-md-row gap-3">
+
+            <!-- Location Card -->
            <div class="p-4 bg-light border flex-fill">
              <h3 class="h5">Where</h3>
+             <!-- Removes bottom margin (mb-0), test sit evenly inside the padded box-->
                <p class="mb-o">Bossier Mall</p>
            </div>
-
+           
+           <!-- Hours Card -->
            <div class="p-4 bg-light border flex-fill">
              <h3 class="h5">When</h3>
+             <!-- Removes bottom margin (mb-0), test sit evenly inside the padded box-->
                <p class="mb-o">Tuesday to Saturday, 11am to 8pm</p>
            </div>
 
-        </div>
-    </section>
-  </main>
+        </div> <!-- End of Flex container -->
+    </section> <!-- End of Visit Us section -->
+
+  </main> <!-- End of Main content -->
+  
+  <!-- Site footer with dark background, centered white text and responsive vertical padding -->
   <footer class="bg-dark text-white text-center py-3 py-md-4">
+    <!-- Copyright and tagline -->
     <p class="mb-o">© 2026 E's Food For The Soul • Where the food satisfies your soul!</p>
   </footer>
 

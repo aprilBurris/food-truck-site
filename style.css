@@ -1,19 +1,26 @@
-/* responsive spacing and heading style start */
+/*==========================================
+ Responsive spacing and heading styles start 
+ ===========================================*/
+
+ /* mobile first applies to screens smaller than 768px (Base Style) */
 .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.5rem;  /* 40px - heading size for mobile */
 }
 
 .lead {
-    font-size: 1.125rem; /* phone size */
+    font-size: 1.125rem; /* 18px - body and subtext size for phones */
 }
 
+/* Tablet and Desktop overrides for screens 768px and wider */
 @media (min-width: 768px) {
     .hero-title {
-        font-size: 4.5rem;
+        font-size: 4.5rem; /* 72 px - scales hero heading up for larger screens */
     }
 
     .lead {
-        font-size: 1.5rem; /* big size screen */
+        font-size: 1.5rem; /* 24px - increases subtext for larger screens */
     }
 }
-/* responsive spacing and heading style end */
+/*==========================================
+ Responsive spacing and heading styles end 
+ ===========================================*/

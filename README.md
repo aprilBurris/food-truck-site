@@ -21,3 +21,4 @@
 | 6 | Update Bootstrap Page | Add responsive cards and visit section | main |
 | 7 | Update Bootstrap page | Responsive spacing and heading size | main |
 | 8 | Updated Bootstrap page | Add breakpoint notes to README | main |
+| 9 | Updated Bootstrap page | Add comments | main |
